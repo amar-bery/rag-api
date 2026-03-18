@@ -1,0 +1,16 @@
+{
+  "name": "rag-api",
+  "version": "1.0.0",
+  "description": "Minimal RAG API using OpenAI embeddings + completions",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node ingest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "openai": "^4.104.0"
+  }
+}
