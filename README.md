@@ -98,10 +98,9 @@ The server **fails fast** at startup if `OPENAI_API_KEY` is not set.
 ```
 rag-api/
 ├── faqs/                    # FAQ markdown source documents
-│   ├── authentication.md
-│   ├── sso.md
-│   ├── employee-policy.md
-│   └── api-integrations.md
+│   ├── faq_auth.md
+│   ├── faq_sso.md
+│   └── faq_employee.md
 ├── rag.js                   # RAG core: chunking, embedding, retrieval, generation
 ├── server.js                # Express HTTP API wrapper
 ├── ingest.js                # Standalone ingestion smoke-test script
